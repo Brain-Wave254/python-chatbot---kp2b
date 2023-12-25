@@ -1,0 +1,182 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "bill_inquiries",
+      "patterns": [
+        "What is my bill amount?",
+        "When is my bill due?",
+        "Can you explain specific charges?",
+        "Tell me about billing history.",
+        "How can I view past payments?"
+      ],
+      "responses": [
+        "Your bill amount is $X.",
+        "The due date for your bill is DD/MM/YYYY.",
+        "Sure, let me explain those charges for you.",
+        "You can view your billing history in your account.",
+        "Here are the details of your past payments."
+      ]
+    },
+    {
+      "tag": "payment_related",
+      "patterns": [
+        "What payment methods are available?",
+        "Did you receive my payment?",
+        "Can I set up a payment plan?",
+        "How can I pay my overdue bill?"
+      ],
+      "responses": [
+        "We accept various payment methods including credit cards and PayPal.",
+        "Let me check the status of your payment. One moment please.",
+        "Certainly, we can discuss setting up a payment plan.",
+        "You can make a payment for your overdue bill through our website."
+      ]
+    },
+    {
+      "tag": "account_management",
+      "patterns": [
+        "How do I activate my account?",
+        "Can I change my contact details?",
+        "What's my account balance?",
+        "Tell me about account deactivation."
+      ],
+      "responses": [
+        "To activate your account, please follow these steps...",
+        "Certainly, you can update your contact details in your account settings.",
+        "Your current account balance is $X.",
+        "If you wish to deactivate your account, please contact our support team."
+      ]
+    },
+    {
+      "tag": "service_requests",
+      "patterns": [
+        "I need a new service connection.",
+        "Can I relocate my service?",
+        "How do I report a power outage?"
+      ],
+      "responses": [
+        "To request a new service connection, please fill out the form on our website.",
+        "Service relocation requests can be submitted through our customer portal.",
+        "To report a power outage, please call our emergency hotline."
+      ]
+    },
+    {
+      "tag": "meter_related",
+      "patterns": [
+        "There's a discrepancy in my meter reading.",
+        "Can you inspect or replace my meter?",
+        "Tell me about meter installation."
+      ],
+      "responses": [
+        "Let me investigate the discrepancy in your meter reading.",
+        "Certainly, we can arrange an inspection or replacement for your meter.",
+        "Information about meter installation can be found on our website."
+      ]
+    },
+    {
+      "tag": "technical_support",
+      "patterns": [
+        "I need assistance with electrical issues.",
+        "How do I report faulty equipment?",
+        "What should I do in case of a safety concern?"
+      ],
+      "responses": [
+        "For electrical issues, please contact our technical support team.",
+        "To report faulty equipment, please submit a support ticket on our website.",
+        "In case of a safety concern, please call our emergency hotline immediately."
+      ]
+    },
+    {
+      "tag": "renewable_energy_inquiries",
+      "patterns": [
+        "Tell me about solar power integration.",
+        "What incentives are available for green energy?",
+        "How can I install renewable energy at my place?"
+      ],
+      "responses": [
+        "Here's information about integrating solar power into your energy system.",
+        "We offer various incentives for adopting green energy. Let me provide details.",
+        "To install renewable energy, you can explore our installation services and subsidies."
+      ]
+    },
+    {
+      "tag": "general_information",
+      "patterns": [
+        "Explain the tariff structure.",
+        "Can you provide energy conservation tips?",
+        "Tell me about company policies and regulations."
+      ],
+      "responses": [
+        "The tariff structure is explained in detail on our website.",
+        "Certainly, here are some energy conservation tips for you.",
+        "For information about company policies and regulations, please refer to our official documents."
+      ]
+    },
+    {
+      "tag": "complaints_and_disputes",
+      "patterns": [
+        "I want to lodge a complaint about service quality.",
+        "I have a dispute about charges.",
+        "What's the status of my previously filed complaint?"
+      ],
+      "responses": [
+        "We apologize for any inconvenience. Please provide details for lodging a complaint.",
+        "Let's address your dispute. Please share the details, and we'll investigate.",
+        "I'll check the status of your previously filed complaint. One moment, please."
+      ]
+    },
+    {
+      "tag": "feedback_and_suggestions",
+      "patterns": [
+        "I want to provide feedback on service quality.",
+        "I have a suggestion for improvement.",
+        "Can I participate in a customer satisfaction survey?"
+      ],
+      "responses": [
+        "We appreciate your feedback! Please share your thoughts on our service.",
+        "Your suggestions are valuable to us. Feel free to provide details for improvement.",
+        "Certainly! We encourage you to participate in our customer satisfaction survey. Thank you!"
+      ]
+    },
+    {
+      "tag": "kenya_power_jokes",
+      "patterns": [
+        "Tell me a joke about Kenya Power!",
+        "Give me a Kenya Power-related joke.",
+        "Any jokes about electricity in Kenya?"
+      ],
+      "responses": [
+        "Why did the light bulb apply for a job at Kenya Power? It wanted to be outstanding in its field!",
+        "How does Kenya Power keep the lights on during a power outage? They use a flashlight!",
+        "Why did the electron go to Kenya Power's customer service? It wanted to lodge a charge!"
+      ]
+    }
+    
+  ]
+}

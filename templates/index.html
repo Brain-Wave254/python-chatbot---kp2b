@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kenya Power</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='stylei.css') }}">
+        <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='images/logokp.png') }}">
+    </head>
+    <body>
+        <div class="header">
+            <nav>
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='images/logokp.png') }}">
+                    <h2>Kenya <span style="color: #fff724;"> Power</span></h2>
+                </div>
+                <ul>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">BOARD</a></li>
+                    <li><a href="#">UPDATES</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                </ul>
+            </nav>
+            <div class="text-box">
+                <h1>Welcome, <span class="auto-input"></span></h1>
+                <p>In addition to electricity distribution to industry, offices, schools, hospitals, and domestic users, KPLC also offers optic fiber connectivity <br>
+                     to telecommunication companies through its optical fiber cable network that runs along its high voltage power lines across the country <br>
+                      mainly to manage the national power grid. <br><br>The Kenya Power and Lighting Company (KPLC) commonly known as Kenya Power, <br>
+                      is a state-owned electric utility company in Kenya. We are responsible for the generation, transmission, <br>
+                      and distribution of electricity in the country.<br> <br>
+
+                      The Kenya Power & Lighting Plc. is committed to provide cost effective, reliable and quality power that delights customers and <br>
+                       betters people’s lives. In pursuit of this undertaking, suitable technologies and innovations shall be embraced to improve <br>
+                        power network and customer service. <br> <br>Quality objectives based on the Corporate Strategic plan shall be established <br>
+                         at relevant functions, levels and processes within the organization. The Board, Management and staff of <br>
+                         Kenya Power are committed to effective implementation and continuous improvement of the Quality <br>
+                         Management System that complies with ISO9001:2015 standard and other applicable requirements. </p>
+                <a href="/register" class="btnn">Register</a>
+                <a href="/login" class="btn">Login</a>
+            </div>
+            <img src="{{ url_for('static', filename='images/one.jpg') }}" class="user-img">
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typed = new Typed(".auto-input", {
+                strings: [" to The Kenya Power website ", "a state-owned electric utility company", "We are responsible for the generation,","transmission, and distribution of electricity"],
+                typeSpeed: 80,
+                backSpeed: 20,
+                loop: true
+            })
+        </script>
+        
+    </body>
+</html>
